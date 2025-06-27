@@ -155,7 +155,7 @@ fun HomeScreen(
         ){
                 paddingValues ->
             Column(
-                modifier = Modifier.padding(paddingValues)
+                modifier = Modifier.padding(paddingValues).fillMaxSize()
             ){
                 Column(
                     modifier = Modifier.fillMaxWidth(),
